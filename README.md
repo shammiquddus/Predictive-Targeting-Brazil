@@ -1,5 +1,4 @@
-# Predictive Targeting
-## Increasing the efficiency of social service delivery in Brazil
+## Predictive Targeting: Increasing the efficiency of social service delivery in Brazil
 Creating a Proxy Means Test (PMT) for poverty targeting in Brazil using the national PNAS dataset. We propose a predictive targeting model that uses a set of easily observable poverty indicators and removes the dependency on self-reported income for social benefits targeting.
 
 Poor households in Brazil have many differentiating characteristics compared to the nonpoor.These differences can be used to create a precise predictive targeting model. For example, households are more likely to be poor if headed by a female or if the household head cannot read and write. Poorer households tend to be younger and have a lower proportion of adult household members being currently employed. Unsurprisingly, the quality of their dwelling is of lower quality, they have lower access to public utilities, and own fewer material assets. The proposed predictive targeting model uses 45 of these differentiating characteristics to predict the probability of a household being poor. Information on these 45 indicators will be collected through a one-page survey and entered into an **probit model** that will assign each household a ‘poverty score’ between 0 and 1. 
